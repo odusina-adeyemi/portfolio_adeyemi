@@ -255,24 +255,25 @@ export const experiences = [
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
+    title: "Software Developer",
+    job: "Full Time",
     date: "2023-2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+      "Developed new user-facing features using React.js, Tailwind, MUI, and Redux, which improved application performance by 25% and enhanced user experience.",
       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Implemented secure APIs, following ISO 26262 automotive safety standards.",
+      "Ensured data privacy for customers and partners through industry-compliant protocols.",
+      "Delivered remote features like real time updates, real-time tracking, and remote start capabilities.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Frontend Developer",
+    date: "2024-Present",
+    job: "Full Time",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Developed and maintained the Property Manager, Admin Portal, and Community Portal, ensuring seamless user experience and improved functionality",
+
+      "Collaborated with cross-functional teams to enhance the app's performance by 30% through debugging and optimization of the codebase.",
     ],
   },
 ];

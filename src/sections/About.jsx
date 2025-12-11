@@ -17,10 +17,21 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
-            <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+            <p className="headtext">Hi, I'm Adeyemi Odusina</p>
+            <p className="subtext ">
+              I’m a Software Engineer with a strong frontend focus, specializing
+              in React, NextJS and other modern JavaScript frameworks. While my
+              core strength is crafting clean, scalable, and intuitive user
+              interfaces, I also build reliable backend services using Node.js
+              and C#, allowing me to deliver end-to-end solutions with
+              confidence. <br />
+              <br />
+              I’m passionate about creating seamless user experiences,
+              integrating complex APIs, and building applications that are both
+              performant and maintainable. My experience spans community
+              platforms, admin dashboards, and enterprise systems—bringing
+              together well-designed interfaces and solid backend logic to
+              create products with real impact.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -36,7 +47,12 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="IDEMPOTENCY"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "45deg", top: "10%", left: "75%" }}
+              text="DRY"
               containerRef={grid2Container}
             />
             <Card
@@ -56,7 +72,7 @@ const About = () => {
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="SPA"
               containerRef={grid2Container}
             />
             <Card
@@ -81,7 +97,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              Based in UTC+1 WAT and easily adaptable to teams across US,
+              Europe, Middle East, and Asia time zones.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -92,7 +109,7 @@ const About = () => {
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+             Reach out to me via email.
             </p>
             <CopyEmailButton />
           </div>
@@ -102,8 +119,11 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I work across the stack, but React is my strongest tool. I build
+              seamless interfaces with React, Next.js, Tailwind, and TypeScript,
+              and handle backend logic using Node.js and C#/.NET. I enjoy
+              creating responsive, scalable, and well-structured applications
+              from UI to API.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
