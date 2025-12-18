@@ -38,23 +38,23 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Authentication",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A secure authentication developed with Node.JS and React, providing robust user login and registration functionalities.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+      "Developed backend authentication using Node.js, Express, and Auth0 for secure user management.",
       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed a React-based frontend with Tailwind CSS for a sleek user experience, to interact with implemented authentication .",
+      "Connected to a secure MongoDB database for user data storage.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/authpage.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "NodeJS",
+        path: "/assets/nodeIcon.png",
       },
       {
         id: 2,
@@ -63,8 +63,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "MongoDB",
+        path: "/assets/mongoDB.png",
       },
       {
         id: 4,
@@ -75,36 +75,33 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "AI Summarizer Web App",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern, AI Summarizing web app  built with React,that helps you summarize your articles in one click. All you need to do is insert your link to get summary from any webpage on the internet.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
+      "Developed a fully interactive Single Page Application (SPA) using React.",
+      "Implemented API Integration using OpenAI to generate accurate article summaries.",
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Managed application state efficiently using Redux Toolkit.",
     ],
-    href: "",
+    href: "https://aisummarizee.netlify.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/summarizer.png",
+
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Redux",
+        path: "/assets/ReduxIcon.png",
       },
+
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -255,12 +252,11 @@ export const experiences = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Web Developer",
     job: "Full Time",
-    date: "2023-2024",
+    date: "2022-2023",
     contents: [
-      "Developed new user-facing features using React.js, Tailwind, MUI, and Redux, which improved application performance by 25% and enhanced user experience.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+      "Automated frontend processes by integrating with external BPA workflows. This provided streamlined business processes to enterprise clients, resulting in a 15% increase in the onboarding process.",
       "Implemented secure APIs, following ISO 26262 automotive safety standards.",
       "Ensured data privacy for customers and partners through industry-compliant protocols.",
       "Delivered remote features like real time updates, real-time tracking, and remote start capabilities.",

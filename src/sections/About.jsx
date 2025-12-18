@@ -117,7 +117,7 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headText">Tech Stack</p>
             <p className="subtext">
               I work across the stack, but React is my strongest tool. I build
               seamless interfaces with React, Next.js, Tailwind, and TypeScript,
