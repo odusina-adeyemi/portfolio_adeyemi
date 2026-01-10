@@ -3,6 +3,13 @@ import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
 const Contact = () => {
+  const serviceId =
+    import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_ru03a2m";
+  const templateId =
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_2ke9e09";
+  const publicKey =
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "K40kZ9oGwRWtRyYhY";
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -27,27 +34,26 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
 
+    if (!serviceId || !templateId || !publicKey) {
+      setIsLoading(false);
+      showAlertMessage("danger", "Email service is not configured.");
+      return;
+    }
+
     try {
       console.log("From submitted:", formData);
-      await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
-        {
-          from_name: formData.name,
-          to_name: "Ali",
-          from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
-          message: formData.message,
-        },
-        "pn-Bw_mS1_QQdofuV"
-      );
+      await emailjs.send(serviceId, templateId, {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      }, publicKey);
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
       showAlertMessage("success", "You message has been sent!");
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Something went wrong!");
     }
   };
   return (

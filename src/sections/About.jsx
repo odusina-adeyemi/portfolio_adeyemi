@@ -18,7 +18,7 @@ const About = () => {
           />
           <div className="z-10">
             <p className="headtext">Hi, I'm Adeyemi Odusina</p>
-            <p className="subtext ">
+            <p className="subtext  !text-white/80">
               I’m a Software Engineer with a strong frontend focus, specializing
               in React, NextJS and other modern JavaScript frameworks. While my
               core strength is crafting clean, scalable, and intuitive user
@@ -29,8 +29,8 @@ const About = () => {
               I’m passionate about creating seamless user experiences,
               integrating complex APIs, and building applications that are both
               performant and maintainable. My experience spans community
-              platforms, admin dashboards, and enterprise systems—bringing
-              together well-designed interfaces and solid backend logic to
+              platforms, admin dashboards, and enterprise systems, bringing
+              together well designed interfaces and solid backend logic to
               create products with real impact.
             </p>
           </div>

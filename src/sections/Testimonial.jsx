@@ -34,7 +34,7 @@ const ReviewCard = ({ img, name, username, body }) => {
 export default function Testimonial() {
   return (
     <div className="items-start mt-25 md:mt-35 c-space">
-      <h2 className="text-heading">Hear From My Clients</h2>
+      {/* <h2 className="text-heading">What My Colleagues Says</h2>
       <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
@@ -48,7 +48,7 @@ export default function Testimonial() {
         </Marquee>
         <div className="absolute inset-y-0 left-0 w-1/4 pointer-events-none bg-gradient-to-r from-primary"></div>
         <div className="absolute inset-y-0 right-0 w-1/4 pointer-events-none bg-gradient-to-l from-primary"></div>
-      </div>
+      </div> */}
     </div>
   );
 }
