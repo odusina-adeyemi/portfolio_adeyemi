@@ -24,10 +24,12 @@ const ProjectDetails = ({
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
-          <p className="mb-3 font-normal text-neutral-400">{description}</p>
-          {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
-          ))}
+          <div className="overflow-y-auto h-40">
+            <p className="mb-3 font-normal text-neutral-400">{description}</p>
+            {subDescription.map((subDesc, index) => (
+              <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
+            ))}
+          </div>
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (
@@ -39,9 +41,13 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation" href={href} target="_blank" rel="noopener noreferrer">
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4"  />
+            <a
+              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project <img src="assets/arrow-up.svg" className="size-4" />
             </a>
           </div>
         </div>

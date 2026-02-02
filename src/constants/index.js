@@ -1,38 +1,39 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Burtech",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Burtech is a B2B e-commerce platform designed for sourcing laboratory equipment, scientific accessories, and technical supplies, providing businesses with a secure, scalable, and efficient procurement experience tailored to enterprise needs.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a scalable B2B e-commerce application using Next.js, leveraging server-side rendering and modern routing for fast page loads and smooth navigation.",
+      "Implemented secure authentication and user management with Supabase Auth, supporting business accounts and role-based access for enterprise users.",
+      "Designed a PostgreSQL-backed data layer using Supabase, enabling structured product catalogs, order management, and transactional integrity.",
+      "Integrated core commerce features including advanced search, filtering, cart management, and checkout workflows to support efficient purchasing and localization requirements.",
     ],
-    href: "",
+    href: "https://burtechproducts.com/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/labaccessoriesEcomm.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "NextJS",
+        path: "/assets/nextjs-icon.svg",
       },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
+
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Firebase",
+        path: "/assets/firebase.png",
+      },
+      {
+        id: 4,
+        name: "PostgreSQL",
+        path: "/assets/postgresql.png",
       },
     ],
   },
@@ -105,107 +106,35 @@ export const myProjects = [
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Open AI",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
+
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Perkflow",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Perkflow is a digital Reward Web App is a performance-driven rewards platform for corporate organizations, enabling teams to recognize employee contributions, incentivize collaboration, and align achievements with organizational goals through redeemable digital gift cards.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Built a scalable web application using Next.js, leveraging server-side rendering (SSR) and static site generation (SSG) for optimal performance and SEO",
+      "Designed and implemented responsive UI components with Tailwind CSS, ensuring a seamless user experience across devices.",
+      " Developed an interactive quiz and assessment system with dynamic question generation and real-time grading to track participation and performance.",
+      "Integrated Stripe for secure payment processing, enabling seamless purchase and redemption of digital gift cards within the platform.",
     ],
-    href: "",
+    href: "https://app.perkflow.io/",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/perkflow.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "NextJS",
+        path: "/assets/nextjs-icon.svg",
       },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
+
       {
         id: 3,
         name: "Stripe",
@@ -213,6 +142,87 @@ export const myProjects = [
       },
       {
         id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Stone Community Platform",
+    description:
+      "A large-scale community web platform optimized for performance and scalability, delivering fast, reliable user experiences for thousands of active users.",
+    subDescription: [
+      "Led frontend performance optimization initiatives that reduced initial application load time from over 5 minutes to seconds.",
+      "Refactored critical rendering paths using efficient state management, component memoization, and lazy loading strategies.",
+      "Integrated secure authentication and authorization flows using Node.js, Express, and Auth0 with role-based access control (RBAC).",
+      "Built and maintained a React-based UI with Tailwind CSS, ensuring responsive design and consistent user experience across devices.",
+    ],
+    href: "https://stonecommunity.limestone.ng/",
+    logo: "",
+    image: "/assets/stoneCommunity2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "NodeJS",
+        path: "/assets/nodeIcon.png",
+      },
+      {
+        id: 3,
+        name: "Auth0",
+        path: "/assets/auth0.png",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/mongoDB.png",
+      },
+      {
+        id: 5,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Stone School",
+    description:
+      "Stone School is a comprehensive school management platform that digitizes core academic and administrative processes, enabling schools to manage students, staff, academics, and operations efficiently from a single, unified system.",
+    subDescription: [
+      "Designed and optimized a high-performance frontend, reducing initial application load time from several minutes to a few seconds through targeted performance improvements",
+      "Refactored critical rendering paths using efficient state management, component memoization, and lazy loading to enhance responsiveness and scalability.",
+      "Implemented secure authentication and authorization workflows with Node.js, Express, including role-based access control (RBAC) for students, teachers, and administrators",
+      "Built and maintained a responsive, user-friendly React interface styled with Tailwind CSS, ensuring consistent experiences across desktop and mobile devices.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/stoneSchool.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "NodeJS",
+        path: "/assets/nodeIcon.png",
+      },
+
+      {
+        id: 4,
+        name: "PostgreSQL",
+        path: "/assets/postgresql2.jpg",
+      },
+      {
+        id: 5,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
