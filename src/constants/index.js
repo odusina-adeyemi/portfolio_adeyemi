@@ -27,8 +27,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Firebase",
-        path: "/assets/firebase.png",
+        name: "Supabase",
+        path: "/assets/supabase.png",
       },
       {
         id: 4,
