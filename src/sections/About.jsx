@@ -32,7 +32,19 @@ const About = () => {
               platforms, admin dashboards, and enterprise systems, bringing
               together well designed interfaces and solid backend logic to
               create products with real impact.
+              <br/>
+              <br/>
+               In addition to engineering, I have work closely with growth and
+              marketing teams as a Tracking & Growth Support Specialist. I
+              implement and manage tracking systems such as Meta Pixel, Google
+              Analytics, Google Tag Manager, and custom event tracking setups. I
+              ensure accurate conversion tracking, funnel measurement, and
+              campaign attribution so marketing decisions are backed by reliable
+              data. I also help optimize tracking architecture to improve
+              performance insights, retargeting accuracy, and overall growth
+              strategy execution.
             </p>
+           
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
@@ -108,9 +120,7 @@ const About = () => {
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
-             Reach out to me via email.
-            </p>
+            <p className="text-center headtext">Reach out to me via email.</p>
             <CopyEmailButton />
           </div>
         </div>
